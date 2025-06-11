@@ -7,7 +7,7 @@
 \newcommand{\reportshorttitle}[1]{\renewcommand{\reportshorttitle}{#1}}
 \newcommand{\leftheadercontent}[1]{
 	\ifx&#1&%
-	\renewcommand{\leftheadercontent}{\includegraphics[width=3cm]{\classfolder/images_cls/logo_arteac_lab_transparent.png}}
+	\renewcommand{\leftheadercontent}{\includegraphics[width=3cm]{\classfolder/images_cls/logo_neutral.png}}
 	\else
 	% #1 is nonempty
 	\renewcommand{\leftheadercontent}{\includegraphics[width=3cm]{#1}}
@@ -18,7 +18,7 @@
 	\begin{center}
 		
 		\ifx&#1&%
-		\includegraphics[width=10cm]{\classfolder/images_cls/logo_arteac_lab_transparent.png}
+		\includegraphics[width=10cm]{\classfolder/images_cls/logo_neutral.png}
 		\else
 		% #1 is nonempty
 		\includegraphics[width=10cm]{#1}
